@@ -408,6 +408,12 @@ a {
     animation: zoom-in-zoom-out 2s ease infinite;
 }
 
+.animate-zoom-in-out1 {
+    animation: zoom-in-zoom-out 2s ease infinite;
+    max-width: 100%;
+    height: auto;
+}
+
 @-webkit-keyframes grow {
     from {
         -webkit-transform:scale(1);
