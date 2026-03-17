@@ -410,7 +410,8 @@ a {
 
 .animate-zoom-in-out1 {
     animation: zoom-in-zoom-out 2s ease infinite;
-    max-width: 100%;
+    max-width: 300px;
+    width: 100%;
     height: auto;
 }
 
