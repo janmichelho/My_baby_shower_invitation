@@ -736,7 +736,7 @@ a {
 
   .slide-item {
       background-position: top center !important;
-      background-image: url('../images/intro.jpg') !important;
+      background-image: url('../images/Intro.jpg') !important;
       opacity: 0.5;
   }
   
@@ -751,7 +751,7 @@ a {
     width: 100vw !important;
     /*background-size: auto;*/
     background-position: top center !important;
-    background-image: url('../images/marco2.jpg') !important;
+    background-image: url('../images/Intro.jpg') !important;
     opacity: 0.5;
   }
   
@@ -769,7 +769,7 @@ a {
   .slide-item {
       width: 100vw !important;
     background-position: top center !important;
-      background-image: url('../images/marco2.jpg') !important;
+      background-image: url('../images/Intro.jpg') !important;
       opacity: 0.5;
   }
   
