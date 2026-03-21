@@ -94,6 +94,46 @@ body {
   padding: 10px 0;
 }
 
+.section-padding2 {
+  padding: 10px 0;
+  background-size: cover !important;
+  background-position: center;
+}
+
+@media (min-width:1025px){
+
+  .section-padding2 {
+      background-position: top center !important;
+      background-image: url('../images/Intro.jpg') !important;
+      opacity: 0.5;
+  }
+
+@media (max-width:480px){
+  
+  .section-padding2 {
+    width: 100vw !important;
+    /*background-size: auto;*/
+    background-position: top center !important;
+    background-image: url('../images/Intro.jpg') !important;
+    opacity: 0.5;
+  }
+  
+  .hero .wedding-announcement .couple-name-merried-text h2 {
+    font-size: 4rem;
+}
+}
+
+@media (max-width: 1024px) and (min-width: 767px){
+
+  .section-padding2 {
+      width: 100vw !important;
+    background-position: top center !important;
+      background-image: url('../images/Intro.jpg') !important;
+      opacity: 0.5;
+  }
+  
+}
+
 .sticky-header {
   z-index: 500;
 }
