@@ -1617,6 +1617,80 @@ a:focus {
   }
 }
 
+/*** background ****/
+<style>
+
+   body {
+  	margin: 0;
+  	font-family: Arial, sans-serif;
+  	background-color: #f5f5f5;
+   }
+
+  .bg {
+      position: fixed;
+  	  top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+
+      width: 100%;
+      max-width: 500px; /* ajusta según tu imagen */
+      height: 100vh;
+
+      background: url("images/Intro.png") no-repeat top center;
+      background-size: contain;
+
+      z-index: -1;
+  }
+
+  /* Contenedor central (zona blanca) */
+  .content {
+    max-width: 380px;
+    margin: auto;
+	position: relative;
+    padding: 20px;
+    
+    /* Simula la zona blanca */
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+
+    /* separación arriba y abajo */
+    margin-top: 35vh;
+  }
+
+  h1, h2, p {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .bg {
+    max-width: 100%; /* ocupa todo el ancho */
+  }
+
+  .content {
+    max-width: 85%;
+    margin-top: 28vh; /* ajusta para móvil */
+  }
+
+    h1 {
+      font-size: 22px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+</style>
+
 /*** header style 2 ****/
 /*--------------------------------------------------------------
 #0.4	hero slider
